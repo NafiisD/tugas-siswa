@@ -1,7 +1,7 @@
 public class SiswaTester {
     public static void main(String[] args) {
         // membuat Objek
-        // namaClass namaObjek = newConstructor
+        // namaClass namaObjek = newConstructor():
         Siswa rehan = new Siswa();
         rehan.id = 23;
         rehan.nama = "Raihan Ardhanis Raharja";
@@ -40,5 +40,8 @@ public class SiswaTester {
         dimas.print();
         System.out.println("--------------------");
 
+        Siswa aidan = new Siswa(20, "aidan", 99.5);
+        aidan.print();
+        System.out.println("--------------------");
     }
 }
