@@ -1,5 +1,17 @@
+package buPasha;
+
+import java.util.Scanner;
+
 public class SiswaTester {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Nama : ");
+        String nama = input.nextLine();
+        System.out.println("Id : ");
+        int id = input.nextInt();
+        System.out.println("Ipk : ");
+        double ipk = input.nextDouble();
+        input.close();
         // membuat Objek
         // namaClass namaObjek = newConstructor():
         Siswa rehan = new Siswa();

@@ -1,3 +1,4 @@
+package buPasha;
 
 
 public class Siswa {
@@ -5,8 +6,6 @@ public class Siswa {
     int id;
     String nama;
     double ipk;
-
-    // ts
 
     //Construstor Default (yang membangun objek)
     public Siswa() {
