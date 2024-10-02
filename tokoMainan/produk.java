@@ -14,6 +14,13 @@ public class produk {
         harga = 0.0;
     }
 
+    public produk(int a, int k, String n, double h) {
+        this.angka= angka;
+        this.kuantitas= kuantitas;
+        this.nama= nama;
+        this.harga= harga; 
+    }
+
     public int getAngka() {
         return this.angka;
     }

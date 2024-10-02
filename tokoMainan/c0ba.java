@@ -22,7 +22,7 @@ public class c0ba {
                 int pilihan = in.nextInt();
     
                 if (pilihan == 1) {
-                    kaset c1 = new kaset();
+                    CD c1 = new CD();
                     c1.print();
     
                 } else if (pilihan == 2) {

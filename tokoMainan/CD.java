@@ -1,15 +1,23 @@
 package tokoMainan;
 
-public class kaset extends produk {
+public class CD extends produk {
     private String artis;
     private int numSong;
     private String label;
 
-    public kaset() {
+    public CD() {
         super(); //constructor dari superclass
         artis = "";
         numSong = 0;
         label = "";
+    }
+
+    public CD(int numSong, String artis, String label, int angka, String nama, double harga, int kuantitas){
+        super(angka, kuantitas, nama, harga);
+        this.artis = artis;
+        this.numSong = numSong;
+        this.label = label;
+
     }
 
     public String getArtis() {
