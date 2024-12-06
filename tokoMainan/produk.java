@@ -14,7 +14,7 @@ public class produk {
         harga = 0.0;
     }
 
-    public produk(int a, int k, String n, double h) {
+    public produk(int angka, int kuantitas, String nama, double harga) {
         this.angka= angka;
         this.kuantitas= kuantitas;
         this.nama= nama;

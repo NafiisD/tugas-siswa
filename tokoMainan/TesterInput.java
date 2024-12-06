@@ -30,6 +30,13 @@ public class TesterInput {
             c1.print();
 
         } else if(pilihan.equalsIgnoreCase("DVD")) {
+            System.out.println("Lenght : ");
+            int lenght = in.nextInt();
+            System.out.println("Rating : ");
+            String rating = in.nextLine();
+            System.out.println("Studio : ");
+            String studio = in.nextLine();
+            in.nextLine();
 
         }
         in.close();

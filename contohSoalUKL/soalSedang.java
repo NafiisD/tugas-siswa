@@ -1,8 +1,8 @@
-package perulangan;
+package contohSoalUKL;
 
 import java.util.Scanner;
 
-public class rataNilai {
+public class soalSedang {
     public static void main(String[] args) {
         int i=1, nilai, jumlahSiswa, totalNilai=0;
         double rataRata;
@@ -20,9 +20,9 @@ public class rataNilai {
 
 
         rataRata=totalNilai/jumlahSiswa;
-        System.out.println("Total nilai dari " +jumlahSiswa+":" +totalNilai);
+        System.out.println("Total Siswa dalam Ujian " +jumlahSiswa);
         System.out.println("Rata-rata : " +rataRata);
 
-        
+
     }
 }

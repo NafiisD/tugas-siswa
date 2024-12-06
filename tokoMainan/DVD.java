@@ -1,9 +1,23 @@
 package tokoMainan;
 
-public class DVD {
+public class DVD extends produk {
     private int lenght;
     private String rating;
     private String studio;
+
+	public DVD (){
+		super();
+		lenght = 0;
+		rating = "";
+		studio = "";
+	}
+
+	public DVD (int angka, int kuantitas, String nama, double harga, int lenght, String rating, String studio){
+		super(angka, kuantitas, nama, harga);
+		this.lenght = lenght;
+		this.rating = rating;
+		this.studio = studio;
+	}
 
 	public int getLenght() {
 		return this.lenght;
